@@ -15,4 +15,11 @@ export default defineConfig({
       "@":path.resolve(__dirname,"./src"),
     },
   },
+  build: {
+    outDir: 'dist',
+  },
+  // 👇 این قسمت برای SPA هست
+  server: {
+    historyApiFallback: true,
+  }
 })
