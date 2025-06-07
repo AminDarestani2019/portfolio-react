@@ -1,11 +1,12 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+const basePath = import.meta.env.BASE_URL;
 
 const projects = [
   {
     id: 1,
     title: "Ecommerce app(ASP.Net core)",
     description: "Acquired practical experience in microservice architecture, DDD, and Razor-based web development by completing Mehmet Ozkaya’s advanced ASP.NET Core Full Stack course.",
-    image: "/projects/project1.png",
+    image: `${basePath}projects/project1.png`,
     tags: ["ASP.net core", "Razor pages", "DDD"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/EShopMicroservices",
@@ -15,7 +16,7 @@ const projects = [
     title: "Ecommerce app(ASP.net core + Angular)",
     description:
       "Developed a full-featured e-commerce web application using ASP.NET Core 8 and Angular, implementing features such as user authentication, product catalog, shopping cart, order processing, and RESTful API integration. Focused on performance, modular architecture, and responsive UI.",
-    image: "/projects/project2.png",
+    image: `${basePath}projects/project2.png`,
     tags: ["TypeScript", "ASP.net core"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/ecommerce",
@@ -25,7 +26,7 @@ const projects = [
     title: "Food order app(React+nodejs)",
     description:
       "Developed a responsive Food Order application using React for the frontend and Node.js for the backend. The app supports real-time menu browsing, cart management, and order placement. Built with RESTful APIs and clean UI design.",
-    image: "/projects/project3.png",
+    image: `${basePath}projects/project3.png`,
     tags: ["React", "Node.js","tailwindcss"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/foodOrderApp",
@@ -35,7 +36,7 @@ const projects = [
     title: "Language quiz app(React + tailwindcss)",
     description:
       "Created a dynamic language quiz application using React, featuring interactive multiple-choice questions, real-time scoring, and responsive UI. Designed to support vocabulary learning and self-assessment.",
-    image: "/projects/project4.png",
+    image: `${basePath}projects/project4.png`,
     tags: ["React", "tailwindcss"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/LanguageQuiz",
@@ -45,7 +46,7 @@ const projects = [
     title: "Place picker app(React + tailwindcss)",
     description:
       "Built a React-based location chooser app for selecting travel or picnic destinations. Includes visual cards, user selection memory, and a lightweight, responsive UI for an engaging experience.",
-    image: "/projects/project5.png",
+    image: `${basePath}projects/project5.png`,
     tags: ["React", "tailwindcss"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/placeChooser",
@@ -55,7 +56,7 @@ const projects = [
     title: "Place picker app(React + tailwindcss)",
     description:
       "Developed an employee task management application using React and TailwindCSS, allowing users to create, assign, and track tasks with a clean and responsive user interface. Designed with a focus on usability, task filtering, and state management.",
-    image: "/projects/project6.png",
+    image: `${basePath}projects/project6.png`,
     tags: ["React", "tailwindcss"],
     demoUrl: "#",
     githubUrl: "https://github.com/AminDarestani2019/ProjectManagement",
