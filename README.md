@@ -18,4 +18,4 @@ This is a portfolio contact form built with **React**, styled using **Tailwind C
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/AminDarestani2019/portfolio-react.git
