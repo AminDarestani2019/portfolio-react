@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://amindarestani2019.github.io/portfolio-react",
   "dependencies": {
     "@radix-ui/react-toast": "^1.2.14",
     "@tailwindcss/vite": "^4.1.8",
